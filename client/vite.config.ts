@@ -26,7 +26,7 @@ export default defineConfig({
     fs: {
       allow: [
         path.resolve(__dirname),
-        '/Users/jsaad/Lello/teilen-sql', // @Temporary - This will not be need if teilen-sql was made into an npm package such that it could live in this project
+        path.resolve(__dirname + "/../teilen-sql"), // @Temporary - This will not be need if teilen-sql was made into an npm package such that it could live in this project
       ]
     }
   }
