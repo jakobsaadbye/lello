@@ -1,0 +1,15 @@
+{
+  "tasks" : {
+        "test" : "deno run fracTest.ts"
+  },
+  "imports": {
+    "react": "npm:react@^19.0.0"
+  },
+  "lint": {
+    "rules": {
+        "exclude": [
+            "no-explicit-any"
+        ]
+    }
+  }
+}
